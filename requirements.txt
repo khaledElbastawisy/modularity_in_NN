@@ -1,0 +1,12 @@
+tensorflow==2.19.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.31.0
+keras==3.9.2
+numpy==1.26.4
+matplotlib==3.9.2
+seaborn
+scikit-learn==1.6.1
+scipy==1.13.1
+networkx
+pandas==2.2.3
+tqdm==4.67.1
