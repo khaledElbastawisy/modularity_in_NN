@@ -32,7 +32,26 @@ When executed, each algorithm will:
 
 ## Requirements
 
-The repository requires standard deep learning libraries such as PyTorch, along with data visualization tools like Matplotlib.
+The repository requires the following libraries:
+```
+tensorflow==2.19.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.31.0
+keras==3.9.2
+numpy==1.26.4
+matplotlib==3.9.2
+seaborn
+scikit-learn==1.6.1
+scipy==1.13.1
+networkx
+pandas==2.2.3
+tqdm==4.67.1
+```
+
+You can install all required dependencies using:
+```bash
+pip install -r requirements.txt
+```
 
 ## Results
 
