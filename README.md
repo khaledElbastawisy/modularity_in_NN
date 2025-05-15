@@ -19,7 +19,6 @@ By default, both algorithms use the CIFAR10 dataset if no `--dataset` flag is pr
 ## What the Algorithms Do
 
 When executed, each algorithm will:
-
 1. Load a pretrained CNN model (trained on the specified dataset)
 2. Identify important neurons for a particular class (configurable via `which_class` in the main method)
 3. Create a sub-network containing only the important neurons
@@ -61,3 +60,7 @@ The algorithms produce visualizations that help understand:
 - The degree of specialization vs. generalization in neural networks
 
 For detailed analysis and conclusions, please refer to the accompanying report.
+
+## Authors
+- [Afia Afrin](https://github.com/afrin-afia)
+- [Khaled El Bastawesy](https://github.com/khaledElbastawisy)
